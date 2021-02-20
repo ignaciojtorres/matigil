@@ -20,9 +20,11 @@ class _MyAppState extends State<MyApp> {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
             SizedBox(height: 10.0),
-            Text("Aún no tienes \nsaldo de envases!",
-                style: Theme.of(context).textTheme.headline4,
-                textAlign: TextAlign.center),
+            Text(
+              "Aún no tienes \nsaldo de envases!",
+              style: Theme.of(context).textTheme.headline4,
+              textAlign: TextAlign.center,
+            ),
             SizedBox(height: 10.0),
             Text(
               "BUSCA UNA TIENDA PARA\n DEVOLVER TUS ENVASES",
@@ -43,6 +45,7 @@ class _MyAppState extends State<MyApp> {
                 color: Colors.blue,
                 onPressed: () {},
                 padding: EdgeInsets.symmetric(horizontal: 60.0))
+            //hola
           ],
         ),
       ),
